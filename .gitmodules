@@ -1,0 +1,3 @@
+[submodule "in/AlSTJ-Gen2"]
+	path = in/AlSTJ-Gen2
+	url = git@github.com:FretwellPhysics/BeEST-AlSTJ-Gen2.git
