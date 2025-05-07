@@ -1,0 +1,17 @@
+{
+    "directory": ".root/in/Data-CRONOS/ben-listmode-sorted/20240812/",
+    "patterns": ["*.bin"],
+    "date": "20240812",
+    "min_filesize": 2e9,
+    "multithread": true,
+    "events_total": -1,
+    "filethreads": 5,
+    "tracethreads": 12,
+    "rise": 500,
+    "flat": 25,
+    "fast": 100,
+    "start_tpz": 200,
+    "max_tpz": 8000,
+    "debug_plots": false,
+    "outdir": "out/processed"
+}
