@@ -1,0 +1,19 @@
+{
+    "path": ".root/in/Data-CRONOS/summer2024/magcycle-13-2024-08-16/",
+    "channel": 12,
+    "sampling_rate": 1250000,
+    "len_signal": 1500,
+    "len_head": 50,
+    "long": [
+        60,
+        30,
+        436
+    ],
+    "short": [
+        20,
+        5,
+        0
+    ],
+    "trigger_dead": -1,
+    "channelname": "PXI1Slot9/ai4"
+}
