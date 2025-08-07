@@ -1,2 +1,3 @@
 5ebe2e7e-3b56-4845-8c5f-8a86ef10b327 encryption=none name=cronos-fast rsyncurl=cronos:/data_fast/beest/annex/5DAT-2024-08-05-32Al130_7Be.dir type=rsync timestamp=1754534384s
+5ebe2e7e-3b56-4845-8c5f-8a86ef10b327 encryption=none name=cronos-fast rsyncurl=cronos:/data_fast/beest/annex/5DAT-2024-08-05-32Al130_7Be.dir type=rsync timestamp=1754584749s
 dd9f8f13-e6aa-4047-881a-df08f5fda1f8 annexobjects=yes encryption=none exporttree=yes name=dropbox type=directory timestamp=1744856608s
