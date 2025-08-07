@@ -1,0 +1,10 @@
+- Laser Tagging
+- Data Cleaning
+    - Laser Shot Bias (Substrate Heating Correction)
+    - (Noise Cut)
+    - (Calibration Uncertainty Cut)
+- Data Calibration
+- Data Aggregation
+    - By Volume
+    - (By Set)
+    - (By Channel)
