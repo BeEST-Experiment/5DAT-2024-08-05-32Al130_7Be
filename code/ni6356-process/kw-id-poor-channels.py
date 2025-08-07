@@ -1,0 +1,6 @@
+# c.set = "magcycle-11-2024-08-14"
+# c.set = "magcycle-12-2024-08-15"
+c.set = "magcycle-13-2024-08-16"
+# c.set = "magcycle-14-2024-08-18"
+# c.set = "magcycle-15-2024-08-19"
+# c.set = "magcycle-16-2024-08-20"
