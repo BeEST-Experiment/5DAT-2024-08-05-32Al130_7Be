@@ -1,7 +1,12 @@
 import beestp3.processors.BeEST_laser_calibration as blc
 import beestp3.processors.BeEST_coincidence_tagger as blt
 import cryoant.apps.repacker as rep
-import sys, os
+import sys
+import os
+from traitlets.config import Config
+
+C = Config()
+C.KWArgs.GetCalibrationHelper.rough_k_peak_tmp = 0.01
 
 
 def main():
@@ -19,13 +24,13 @@ def main():
     #: LASER TAG
     try:
         sys.argv = ["", "-m", "tagging", "-d", f"{dir}/processed"]
-        blc.main()
+        blc.main(cfg=C)
     except Exception as e:
         print(f"Error: {e}")
     #: COINCIDENCE
     try:
         sys.argv = ["", "-d", f"{dir}/processed"]
-        blt.main()
+        blt.main(cfg=C)
     except Exception as e:
         print(f"Error: {e}")
     #: CALIBRATION
@@ -42,7 +47,7 @@ def main():
             f"{dir}/processed",
             "-p",
         ]
-        blc.main()
+        blc.main(cfg=C)
     except Exception as e:
         print(f"Error: {e}")
     #: REPACKER

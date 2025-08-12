@@ -1,6 +1,7 @@
 - Laser Tagging
 - Data Cleaning
     - Laser Shot Bias (Substrate Heating Correction)
+    - Intensity Cut
     - (Noise Cut)
     - (Calibration Uncertainty Cut)
 - Data Calibration
