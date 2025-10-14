@@ -1,3 +1,4 @@
 20e57c26-3455-4638-96f1-cda988fc3bcb sameas-uuid=5ebe2e7e-3b56-4845-8c5f-8a86ef10b327 timestamp=1759881716s
 56963fe2-b70a-4965-9e57-22133567eac9 sameas-name=duplicate sameas-uuid=95cf97c0-7cdf-4f46-9416-9bb3bff5f97c type=directory timestamp=1759881690s
 95cf97c0-7cdf-4f46-9416-9bb3bff5f97c encryption=none name=dpt type=directory timestamp=1759881266s
+9741170e-7d6e-477c-8bb5-1bd9ab229cb4 rsyncurl=cronos:/data_fast/beest/annex/5DAT-2024-08-02-Al-7Be-PRMask.dir sameas-name=dpt.rsync sameas-uuid=95cf97c0-7cdf-4f46-9416-9bb3bff5f97c type=rsync timestamp=1760479176s
