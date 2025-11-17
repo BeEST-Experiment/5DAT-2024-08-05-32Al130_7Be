@@ -96,7 +96,7 @@ def prelim_approx(channels, set):
     """Load data from the set and plot each uncalibrated channel so I can see what to calibrate to"""
 
     files = list(
-        Path(f"./.root/in/5DAT-Data.lnk/out/process/{set}/processed/").glob(
+        Path(f"./.root/in/5DAT-Data.set/out/process/{set}/processed/").glob(
             "chewed_*_Sig_*.h5"
         )
     )
